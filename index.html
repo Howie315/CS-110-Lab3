@@ -4,178 +4,188 @@
 <!-- Howie implemented the HTML, the navigation bar and the left container -->
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="index.css" />
-		<title>Twitter Page</title>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"
-			integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4="
-			crossorigin="anonymous"
-		></script>
-	</head>
-	<body>
-		<!-- TODO: Create HTML elements for Twitter mockup inside body -->
-		<nav class="navBar" role="navigation">
-			<ul>
-				<li>Home</li>
-				<li>Moments</li>
-				<li>Notifications</li>
-				<li>Messages</li>
-			</ul>
-			<img src="./images/twitter-logo.png" class="image" alt="Twitter logo" />
-			<button class="tweet">Tweet</button>
-		</nav>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Twitter Page</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"
+      integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <!-- TODO: Create HTML elements for Twitter mockup inside body -->
+    <nav class="navBar" role="navigation">
+      <ul>
+        <li>Home</li>
+        <li>Moments</li>
+        <li>Notifications</li>
+        <li>Messages</li>
+      </ul>
+      <img src="./images/twitter-logo.png" class="image" alt="Twitter logo" />
+      <button class="tweet">Tweet</button>
+    </nav>
 
-		<div class="mainCont" role="main">
-			<div class="left">
-				<img
-					class="logoPic"
-					src="./images/ratatouille.jpg"
-					alt="A picture of the Ratatouille mouse"
-				/>
-				<div class="cover">
-					<img
-						src="./images/ratatouille-banner.png"
-						alt="A banner with the Ratatouille letters"
-					/>
-				</div>
-				<div class="nameCont">
-					<div class="names">
-						<div class="name1">Remy<br /></div>
-						<div class="name2">@remy</div>
-					</div>
-				</div>
-				<div class="stats">
-					<div>
-						<p class="words">Tweets</p>
-						<p class="nums">5049</p>
-					</div>
-					<div>
-						<p class="words">Following</p>
-						<p class="nums">324</p>
-					</div>
-					<div>
-						<p class="words">Followers</p>
-						<p class="nums">809</p>
-					</div>
-				</div>
-			</div>
+    <div class="mainCont" role="main">
+      <div class="left">
+        <img
+          class="logoPic"
+          src="./images/ratatouille.jpg"
+          alt="A picture of the Ratatouille mouse"
+        />
+        <div class="cover">
+          <img
+            src="./images/ratatouille-banner.png"
+            alt="A banner with the Ratatouille letters"
+          />
+        </div>
+        <div class="nameCont">
+          <div class="names">
+            <div class="name1">Remy<br /></div>
+            <div class="name2">@remy</div>
+          </div>
+        </div>
+        <div class="stats">
+          <div>
+            <p class="words">Tweets</p>
+            <p class="nums">5049</p>
+          </div>
+          <div>
+            <p class="words">Following</p>
+            <p class="nums">324</p>
+          </div>
+          <div>
+            <p class="words">Followers</p>
+            <p class="nums">809</p>
+          </div>
+        </div>
+      </div>
 
-			<div class="middle">
-				<div class="searchContainer">
-					<form class="searchForm">
-						<input type="text" placeholder="Search..." />
-						<button type="submit"><i class="fas fa-search"></i></button>
-					</form>
-				</div>
-				<div class="posts">
-					<img
-						class="slogopic"
-						src="./images/ratatouille.jpg"
-						alt="A picture of the Ratatouille mouse"
-					/>
-					<div class="words">
-						<p>
-							<span class="name">Remy</span>
-							<span class="dates">@remy Nov 19</span>
-						</p>
-						<p>
-							I'm taking this class called CS110 and TAs are so
-							<strong>cool!</strong>
-						</p>
-					</div>
-				</div>
-				<div class="posts">
-					<img
-						class="slogopic"
-						src="./images/ratatouille.jpg"
-						alt="A picture of the Ratatouille mouse"
-					/>
-					<div class="words">
-						<p>
-							<span class="name">Remy</span>
-							<span class="dates">@remy Nov 19</span>
-						</p>
-						<p>
-							It's 2007. You just got home from elementary school. Your mom has
-							pizza bagels in the oven. Ratatouille is in theaters. Life is good
-						</p>
-					</div>
-				</div>
-				<div class="posts">
-					<img
-						class="slogopic"
-						src="./images/ratatouille.jpg"
-						alt="A picture of the Ratatouille mouse"
-					/>
-					<div class="words">
-						<p>
-							<span class="name">Remy</span>
-							<span class="dates">@remy Nov 19</span>
-						</p>
-						<p>Lets make some pasta!</p>
-					</div>
-				</div>
-				<div class="posts">
-					<img
-						class="slogopic"
-						src="./images/ratatouille.jpg"
-						alt="A picture of the Ratatouille mouse"
-					/>
-					<div class="words">
-						<p>
-							<span class="name">Remy</span>
-							<span class="dates">@remy Nov 19</span>
-						</p>
-						<p>Let's make some pasta!</p>
-					</div>
-				</div>
-				<div class="posts">
-					<img
-						class="slogopic"
-						src="./images/ratatouille.jpg"
-						alt="A picture of the Ratatouille mouse"
-					/>
-					<div class="words">
-						<p>
-							<span class="name">Remy</span>
-							<span class="dates">@remy Nov 19</span>
-						</p>
-						<p>Let's make some pasta!</p>
-					</div>
-				</div>
-			</div>
+      <div class="middle">
+        <div class="searchContainer">
+          <form class="searchForm">
+            <input type="text" placeholder="Search..." id="search-input" />
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
+          <button id="button">Pause</button>
+        </div>
 
-			<div class="right">
-				<h4>Who to follow</h4>
-				<div class="friends">
-					<div class="people">
-						<img
-							class="lin"
-							src="./images/linguini.png"
-							alt="A cartoon picture of a dude"
-						/>
-						<div>
-							<span class="name1">Linguini</span>
-							<span class="email">@linguini</span>
-							<button>Follow</button>
-						</div>
-					</div>
+        <!-- HTML code for displaying tweets -->
+        <div id="tweets-container"></div>
 
-					<div class="people">
-						<img
-							class="lin"
-							src="./images/ratatouille.jpg"
-							alt="A picture of the Ratatouille mouse"
-						/>
-						<div>
-							<span class="name1">CS110 TA</span> <span class="email">@cs</span>
-							<button>Follow</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
+        <!-- <div class="posts">
+          <img
+            class="slogopic"
+            src="./images/ratatouille.jpg"
+            alt="A picture of the Ratatouille mouse"
+          />
+          <div class="words">
+            <p>
+              <span class="name">Remy</span>
+              <span class="dates">@remy Nov 19</span>
+            </p>
+            <p>
+              I'm taking this class called CS110 and TAs are so
+              <strong>cool!</strong>
+            </p>
+          </div>
+        </div>
+        <div class="posts">
+          <img
+            class="slogopic"
+            src="./images/ratatouille.jpg"
+            alt="A picture of the Ratatouille mouse"
+          />
+          <div class="words">
+            <p>
+              <span class="name">Remy</span>
+              <span class="dates">@remy Nov 19</span>
+            </p>
+            <p>
+              It's 2007. You just got home from elementary school. Your mom has
+              pizza bagels in the oven. Ratatouille is in theaters. Life is good
+            </p>
+          </div>
+        </div>
+        <div class="posts">
+          <img
+            class="slogopic"
+            src="./images/ratatouille.jpg"
+            alt="A picture of the Ratatouille mouse"
+          />
+          <div class="words">
+            <p>
+              <span class="name">Remy</span>
+              <span class="dates">@remy Nov 19</span>
+            </p>
+            <p>Lets make some pasta!</p>
+          </div>
+        </div>
+        <div class="posts">
+          <img
+            class="slogopic"
+            src="./images/ratatouille.jpg"
+            alt="A picture of the Ratatouille mouse"
+          />
+          <div class="words">
+            <p>
+              <span class="name">Remy</span>
+              <span class="dates">@remy Nov 19</span>
+            </p>
+            <p>Let's make some pasta!</p>
+          </div>
+        </div>
+        <div class="posts">
+          <img
+            class="slogopic"
+            src="./images/ratatouille.jpg"
+            alt="A picture of the Ratatouille mouse"
+          />
+          <div class="words">
+            <p>
+              <span class="name">Remy</span>
+              <span class="dates">@remy Nov 19</span>
+            </p>
+            <p>Let's make some pasta!</p>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="right">
+        <h4>Who to follow</h4>
+        <div class="friends">
+          <div class="people">
+            <img
+              class="lin"
+              src="./images/linguini.png"
+              alt="A cartoon picture of a dude"
+            />
+            <div>
+              <span class="name1">Linguini</span>
+              <span class="email">@linguini</span>
+              <button>Follow</button>
+            </div>
+          </div>
+
+          <div class="people">
+            <img
+              class="lin"
+              src="./images/ratatouille.jpg"
+              alt="A picture of the Ratatouille mouse"
+            />
+            <div>
+              <span class="name1">CS110 TA</span> <span class="email">@cs</span>
+              <button>Follow</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
