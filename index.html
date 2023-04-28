@@ -13,7 +13,6 @@
       integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4="
       crossorigin="anonymous"
     ></script>
-    <script src="./index.js"></script>
   </head>
   <body>
     <!-- TODO: Create HTML elements for Twitter mockup inside body -->
@@ -69,7 +68,8 @@
             <input type="text" placeholder="Search..." id="search-input" />
             <button type="submit"><i class="fas fa-search"></i></button>
           </form>
-          <button id="button">Pause</button>
+          <input type="checkbox" id="pauseTweets" name="pauseTweets" value="pauseTweets">
+          <label for="pauseTweets">Pause</label>
         </div>
 
         <!-- HTML code for displaying tweets -->
@@ -187,5 +187,6 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js"></script>
   </body>
 </html>
