@@ -96,6 +96,18 @@ body {
 	margin-right: 10px;
 	margin-top: 10px;
 }
+.button {
+	background-color: grey;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	
+	display: flex;
+	justify-content: center;
+	margin-top: 6px;
+  }
 .right {
 	height: 220px;
 	width: 350px;
