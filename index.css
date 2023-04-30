@@ -87,15 +87,18 @@ body {
 }
 
 .middle {
-	min-height: 1000px;
-	max-height: 1100px;
+	/* min-height: 1000px;
+	max-height: 1100px; */
 	width: 100%;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
 	margin-left: 10px;
 	margin-right: 10px;
-	margin-top: 10px;
+	margin-top: 18px;
+	background-color: transparent;
+
+	
 }
 #button {
 	background-color: grey;
@@ -187,6 +190,8 @@ body {
 .middle {
 	display: flex;
 	flex-direction: column;
+
+	
 }
 .middle .posts {
 	display: flex;
@@ -194,7 +199,11 @@ body {
 	border-bottom: 1px solid #e6ecf0;
 	min-height: 51px;
 	width: 100%;
-	flex-grow: 1;
+	height: auto;
+	background-color: white;
+	/* margin-bottom: 10px; */
+	
+
 }
 .middle .posts .slogopic {
 	border-radius: 50%;
@@ -335,6 +344,7 @@ h4 {
 	display: flex;
 	justify-content: center;
 	margin-top: -40px;
+	position: relative;
 }
 
 .searchForm {
@@ -365,4 +375,5 @@ h4 {
 
 #tweets-container{
 	flex: 1;
+	height: auto; /* set initial height to auto */
 }
